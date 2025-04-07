@@ -1,16 +1,26 @@
-# This is a sample Python script.
+import warnings
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from portofolio_optimization_and_evaluation import portfolio_optimization_and_evaluation
+from rolling_window_volatility import rolling_window_volatility
+from tests import diagnostic_tests
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+warnings.filterwarnings("ignore", message="divide by zero encountered in log")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+portfolio_optimization_and_evaluation()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
